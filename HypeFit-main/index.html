@@ -1,0 +1,1017 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="HYPEFIT - Sneakers Importados, Fitness e Lifestyle. Descubra drops limitados com qualidade premium absoluta e entrega para todo o Brasil.">
+  <meta name="keywords"
+    content="Hypefit, Sneakers Importados, Moda Fitness, Lifestyle Urbano, Travis Scott, Vomero, Puma Park, E-commerce Premium">
+  <meta name="author" content="HYPEFIT">
+
+  <title>HYPEFIT | Sneakers Importados, Fitness &amp; Lifestyle</title>
+
+  <!-- Google Fonts: Outfit (headings) and Inter (body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- Core Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- =========================================
+    HEADER / NAVIGATION (GLASSMORPHIC STICKY DARK)
+  ========================================= -->
+  <header class="header">
+    <div class="container nav-container">
+      <!-- Brand Logo -->
+      <a href="#" class="logo-link" aria-label="Voltar para a home">
+        <img src="produtos/logo .PNG" alt="HYPEFIT Logo" class="logo-img">
+      </a>
+    </div>
+  </header>
+
+  <!-- =========================================
+    MOBILE SIDE DRAWER MENU
+  ========================================= -->
+  <div class="mobile-drawer-overlay" id="mobile-drawer-overlay"></div>
+  <aside class="mobile-drawer" id="mobile-drawer" aria-label="Menu de Navegação Lateral">
+    <div class="drawer-header">
+      <span class="logo">
+        <img src="produtos/logo .PNG" alt="HYPEFIT Logo" class="logo-img-drawer">
+        HYPEFIT<span class="logo-dot">.</span>
+      </span>
+      <button class="drawer-close-btn" id="mobile-drawer-close" aria-label="Fechar menu">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+    </div>
+    <div class="drawer-body">
+      <ul class="mobile-nav-links">
+        <li><a href="#catalogo" class="mobile-nav-link" data-category="all">Todos os Drops</a></li>
+        <li><a href="#catalogo" class="mobile-nav-link" data-category="sneakers">Sneakers Limitados</a></li>
+        <li><a href="#catalogo" class="mobile-nav-link" data-category="performance">Treino &amp; Corrida</a></li>
+        <li><a href="#catalogo" class="mobile-nav-link" data-category="sneakers">Urbano &amp; Dia a Dia</a></li>
+        <li><a href="#catalogo" class="mobile-nav-link" data-category="acessorios">Acessórios Premium</a></li>
+      </ul>
+      <div class="drawer-footer">
+        <div class="drawer-socials">
+          <a href="https://instagram.com/hypfit.br" target="_blank" aria-label="Instagram HYPEFIT"><i
+              class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.tiktok.com/@hypfit.br" target="_blank" aria-label="TikTok HYPEFIT"><i
+              class="fa-brands fa-tiktok"></i></a>
+          <a href="https://wa.me/556294879501" target="_blank" aria-label="WhatsApp HYPEFIT"><i
+              class="fa-brands fa-whatsapp"></i></a>
+        </div>
+        <p class="drawer-credit">Sneakers. Fitness. Lifestyle.</p>
+      </div>
+    </div>
+  </aside>
+
+  <!-- =========================================
+    HERO SECTION (DARK FUTURISTIC GLOW)
+  ========================================= -->
+  <section class="hero-section">
+    <div class="hero-bg-overlay"></div>
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <!-- High-converting Social Proof Rating -->
+        <div class="hero-rating-widget">
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <span><strong>4.9/5</strong> baseado em +2.000 clientes satisfeitos</span>
+        </div>
+
+        <div class="hero-tagline">
+          <span class="hero-badge">HYPEFIT • WEAR THE HYPE®</span>
+        </div>
+        <h1 class="hero-title">OS SNEAKERS<br>MAIS DESEJADOS<br>DA INTERNET.</h1>
+        <p class="hero-subtitle">
+          Importação premium e edições limitadas de calçados importados, tecidos tecnológicos e amortecimento superior.
+          Garanta exclusividade e presença imbatível em qualquer ocasião.
+        </p>
+        <div class="hero-actions">
+          <a href="#catalogo" class="btn btn-primary animate-glow-btn">Garantir Meu Par</a>
+          <a href="https://wa.me/556294879501" target="_blank" class="btn btn-outline"
+            style="border-color: var(--color-white); color: var(--color-white);"><i class="fa-brands fa-whatsapp"
+              style="margin-right: 8px;"></i> Suporte Direto</a>
+        </div>
+      </div>
+
+      <!-- Premium Hero Features Widget (Keynote Style Dark) -->
+      <div class="hero-features-panel">
+        <div class="feat-item">
+          <div class="feat-icon"><i class="fa-solid fa-plane-departure"></i></div>
+          <div class="feat-text">
+            <h3>Sneakers Importados</h3>
+            <p>Modelos selecionados e raros no mercado.</p>
+          </div>
+        </div>
+        <div class="feat-item">
+          <div class="feat-icon"><i class="fa-solid fa-truck-fast"></i></div>
+          <div class="feat-text">
+            <h3>Frete Grátis Nacional</h3>
+            <p>A partir de 2 pares.</p>
+          </div>
+        </div>
+        <div class="feat-item">
+          <div class="feat-icon"><i class="fa-brands fa-whatsapp"></i></div>
+          <div class="feat-text">
+            <h3>Atendimento Direto</h3>
+            <p>Fechamento rápido e humanizado via WhatsApp.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="scroll-indicator" aria-label="Rolar para baixo">
+      <div class="mouse-icon">
+        <div class="wheel"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================
+    TRUST BAR (HIGH CONVERSION BRAND SIGNALS)
+  ========================================= -->
+  <section class="trust-bar-section">
+    <div class="container trust-bar-grid">
+      <div class="trust-item">
+        <i class="fa-solid fa-shield-halved trust-icon"></i>
+        <div class="trust-text">
+          <h4>Compra 100% Segura</h4>
+          <p>Autenticidade & criptografia total SSL</p>
+        </div>
+      </div>
+      <div class="trust-item">
+        <i class="fa-solid fa-truck-fast trust-icon"></i>
+        <div class="trust-text">
+          <h4>Frete Grátis Nacional</h4>
+          <p>A partir de 2 pares</p>
+        </div>
+      </div>
+      <div class="trust-item">
+        <i class="fa-solid fa-rotate-left trust-icon"></i>
+        <div class="trust-text">
+          <h4>Primeira Troca Grátis</h4>
+          <p>Garantia de 7 dias para devolução</p>
+        </div>
+      </div>
+      <div class="trust-item">
+        <i class="fa-solid fa-credit-card trust-icon"></i>
+        <div class="trust-text">
+          <h4>Sem Juros no Cartão</h4>
+          <p>Parcelamento em até 6x sem acréscimo</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================
+    PRODUCT CATALOG & CATEGORIES SECTION
+  ========================================= -->
+  <section class="catalog-section" id="catalogo">
+    <div class="container">
+      <div class="catalog-header">
+        <div class="section-title-wrap">
+          <span class="section-tag">Coleções Exclusivas</span>
+          <h2 class="section-title">NOSSOS PRODUTOS</h2>
+        </div>
+
+        <!-- Category Filter Tabs -->
+        <div class="category-tabs" role="tablist">
+          <button class="tab-btn active" role="tab" aria-selected="true" data-filter="all">Todos</button>
+          <button class="tab-btn" role="tab" aria-selected="false" data-filter="sneakers">Sneakers</button>
+          <button class="tab-btn" role="tab" aria-selected="false" data-filter="performance">Treino &amp; Corrida</button>
+          <button class="tab-btn" role="tab" aria-selected="false" data-filter="sneakers">Urbano &amp; Dia a Dia</button>
+          <button class="tab-btn" role="tab" aria-selected="false" data-filter="acessorios">Acessórios</button>
+        </div>
+      </div>
+
+      <!-- Dynamic Product Grid -->
+      <div class="products-grid" id="products-grid-container">
+        <!-- Products will be dynamically generated by Javascript -->
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================
+    PRODUCT DETAIL MODAL (DYNAMIC CONTENT)
+  ========================================= -->
+  <div class="modal-overlay" id="product-modal" aria-hidden="true" role="dialog">
+    <div class="modal-container">
+      <button class="modal-close" id="modal-close-btn" aria-label="Fechar detalhes do produto">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+
+      <div class="modal-content-grid" id="modal-product-detail">
+        <!-- Will be populated dynamically via script.js -->
+      </div>
+    </div>
+  </div>
+
+  <!-- =========================================
+    CART DRAWER (SLIDE-OUT FROM RIGHT)
+  ========================================= -->
+  <div class="cart-overlay" id="cart-overlay"></div>
+  <aside class="cart-drawer" id="cart-drawer" aria-label="Seu Carrinho de Compras">
+    <div class="cart-header">
+      <div class="cart-header-title">
+        <i class="fa-solid fa-bag-shopping"></i>
+        <h2>Seu Carrinho</h2>
+        <span class="cart-item-count" id="cart-items-count-badge">(0)</span>
+      </div>
+      <button class="cart-close-btn" id="cart-close-btn" aria-label="Fechar carrinho">
+        <i class="fa-solid fa-arrow-right"></i>
+      </button>
+    </div>
+
+    <!-- Free Shipping Progress Tracker -->
+    <div class="free-shipping-tracker">
+      <div class="tracker-text" id="shipping-tracker-text">Adicione <strong>2 pares</strong> para ganhar <strong>Frete
+          Grátis</strong></div>
+      <div class="tracker-progress-bg">
+        <div class="tracker-progress-bar" id="shipping-progress-bar" style="width: 0%;"></div>
+      </div>
+    </div>
+
+    <!-- Cart Drawer Body -->
+    <div class="cart-body" id="cart-items-list">
+      <!-- Dynamic list of products in the cart -->
+      <div class="empty-cart-state" id="empty-cart-state">
+        <i class="fa-solid fa-box-open empty-cart-icon"></i>
+        <h3>Seu carrinho está vazio</h3>
+        <p>Explore os nossos drops exclusivos de calçados importados e adicione peças incríveis ao seu estilo.</p>
+        <a href="#catalogo" class="btn btn-primary cart-explore-btn">Ver Vitrine</a>
+      </div>
+    </div>
+
+    <!-- Cart Drawer Footer -->
+    <div class="cart-footer" id="cart-footer-panel" style="display: none;">
+      <div class="cart-summary-row">
+        <span>Subtotal</span>
+        <span class="price-value" id="cart-subtotal-val">R$ 0,00</span>
+      </div>
+      <div class="cart-summary-row shipping-row">
+        <span>Frete</span>
+        <span class="price-value success-text" id="cart-shipping-val">Calculado no Checkout</span>
+      </div>
+      <div class="cart-divider"></div>
+      <div class="cart-summary-row total-row">
+        <span>Total Estimado</span>
+        <span class="price-value" id="cart-total-val">R$ 0,00</span>
+      </div>
+      <p class="cart-installments-text" id="cart-installments-val">Ou até 6x de R$ 0,00 sem juros</p>
+
+      <div class="cart-footer-actions">
+        <a href="#checkout" class="btn btn-primary btn-checkout" id="cart-checkout-btn">Finalizar Compra</a>
+        <button class="btn btn-outline cart-continue-shopping" id="cart-continue-btn">Continuar Navegando</button>
+      </div>
+    </div>
+  </aside>
+
+  <!-- =========================================
+    1-STEP SIMPLE CHECKOUT SECTION (FAST checkout)
+  ========================================= -->
+  <section class="checkout-section" id="checkout">
+    <div class="container">
+      <!-- Back to shop button for the Overlay -->
+      <div class="checkout-back-nav">
+        <button type="button" class="btn-checkout-back" id="checkout-back-btn">
+          <i class="fa-solid fa-arrow-left-long"></i> Voltar para a Loja
+        </button>
+      </div>
+
+      <div class="section-header text-center">
+        <div class="checkout-logo"
+          style="margin-bottom: 20px; text-align: center; filter: drop-shadow(0 0 10px rgba(0, 240, 255, 0.35));">
+          <img src="produtos/logo .PNG" alt="HYPEFIT Logo" style="max-height: 50px; object-fit: contain;">
+        </div>
+        <span class="section-tag">Finalize rápido por WhatsApp</span>
+        <h2 class="section-title">CHECKOUT EXPRESS</h2>
+        <p>Preencha seus dados de entrega abaixo. Ao finalizar, você será redirecionado para o WhatsApp com tudo pronto
+          para nossa equipe concluir seu envio.</p>
+      </div>
+
+      <!-- Main Checkout Layout Grid -->
+      <div class="checkout-grid">
+
+        <!-- Left Column: Shipping & Personal Info -->
+        <div class="checkout-card forms-column">
+          <form id="checkout-form">
+            <!-- Step Block 1: Identification & Shipping -->
+            <div class="checkout-step-block">
+              <div class="block-title">
+                <span class="block-num">01</span>
+                <h3>Dados Pessoais &amp; Entrega</h3>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group w-100">
+                  <label for="checkout-name" class="form-label">Nome Completo</label>
+                  <input type="text" id="checkout-name" class="form-input" placeholder="Ex: Lucas Henrique Silva"
+                    required>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group w-50">
+                  <label for="checkout-email" class="form-label">E-mail</label>
+                  <input type="email" id="checkout-email" class="form-input" placeholder="seu-email@exemplo.com"
+                    required>
+                </div>
+                <div class="form-group w-50">
+                  <label for="checkout-phone" class="form-label">WhatsApp / Telefone</label>
+                  <input type="tel" id="checkout-phone" class="form-input" placeholder="(62) 99999-9999" required>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group w-50">
+                  <label for="checkout-cpf" class="form-label">CPF (para Nota Fiscal)</label>
+                  <input type="text" id="checkout-cpf" class="form-input" placeholder="000.000.000-00" required>
+                </div>
+                <div class="form-group w-50">
+                  <label for="checkout-cep" class="form-label">CEP (Entrega)</label>
+                  <div class="cep-input-wrapper">
+                    <input type="text" id="checkout-cep" class="form-input" placeholder="00000-000" maxlength="9"
+                      required>
+                    <i class="fa-solid fa-circle-notch fa-spin cep-spinner" id="cep-loader-spinner"
+                      style="display: none;"></i>
+                  </div>
+                </div>
+              </div>
+
+              <div class="form-row address-row">
+                <div class="form-group w-70">
+                  <label for="checkout-address" class="form-label">Endereço</label>
+                  <input type="text" id="checkout-address" class="form-input" placeholder="Rua / Avenida" required>
+                </div>
+                <div class="form-group w-30">
+                  <label for="checkout-number" class="form-label">Número</label>
+                  <input type="text" id="checkout-number" class="form-input" placeholder="Ex: 123" required>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group w-50">
+                  <label for="checkout-complement" class="form-label">Complemento (Opcional)</label>
+                  <input type="text" id="checkout-complement" class="form-input" placeholder="Apto, Bloco, etc.">
+                </div>
+                <div class="form-group w-50">
+                  <label for="checkout-neighborhood" class="form-label">Bairro</label>
+                  <input type="text" id="checkout-neighborhood" class="form-input" placeholder="Nome do Bairro"
+                    required>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group w-70">
+                  <label for="checkout-city" class="form-label">Cidade</label>
+                  <input type="text" id="checkout-city" class="form-input" placeholder="Sua Cidade" required>
+                </div>
+                <div class="form-group w-30">
+                  <label for="checkout-state" class="form-label">Estado</label>
+                  <select id="checkout-state" class="form-input" style="height: 52px;" required>
+                    <option value="" disabled selected>UF</option>
+                    <option value="AC">AC</option>
+                    <option value="AL">AL</option>
+                    <option value="AP">AP</option>
+                    <option value="AM">AM</option>
+                    <option value="BA">BA</option>
+                    <option value="CE">CE</option>
+                    <option value="DF">DF</option>
+                    <option value="ES">ES</option>
+                    <option value="GO">GO</option>
+                    <option value="MA">MA</option>
+                    <option value="MT">MT</option>
+                    <option value="MS">MS</option>
+                    <option value="MG">MG</option>
+                    <option value="PA">PA</option>
+                    <option value="PB">PB</option>
+                    <option value="PR">PR</option>
+                    <option value="PE">PE</option>
+                    <option value="PI">PI</option>
+                    <option value="RJ">RJ</option>
+                    <option value="RN">RN</option>
+                    <option value="RS">RS</option>
+                    <option value="RO">RO</option>
+                    <option value="RR">RR</option>
+                    <option value="SC">SC</option>
+                    <option value="SP">SP</option>
+                    <option value="SE">SE</option>
+                    <option value="TO">TO</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+
+            <!-- Step Block 2: Payment Details -->
+            <div class="checkout-step-block" style="margin-top: 2rem;">
+              <div class="block-title">
+                <span class="block-num">02</span>
+                <h3>Escolha a Forma de Pagamento</h3>
+              </div>
+
+              <!-- Payment Method Selectors -->
+              <div class="payment-tabs">
+                <button type="button" class="pay-tab-btn active" data-payment="pix">
+                  <i class="fa-brands fa-pix"></i>
+                  <span>PIX Expresso</span>
+                </button>
+                <button type="button" class="pay-tab-btn" data-payment="card">
+                  <i class="fa-solid fa-credit-card"></i>
+                  <span>Cartão de Crédito</span>
+                </button>
+              </div>
+
+              <!-- Payment Content Panels -->
+              <div class="payment-panels-container">
+
+                <!-- PANEL: PIX -->
+                <div class="payment-panel active" id="panel-pix">
+                  <div class="pix-instructions">
+                    <div class="pix-badge-success">
+                      <i class="fa-solid fa-percent" style="margin-right: 6px;"></i> + 5% DE DESCONTO NO PIX
+                    </div>
+                    <p>O QR Code e chave Pix do seu pedido serão exibidos na tela final e também enviados por WhatsApp
+                      após finalizar. Processamento instantâneo!</p>
+                    <ul class="pix-features-list">
+                      <li><i class="fa-regular fa-circle-check"></i> Liberação imediata do estoque</li>
+                      <li><i class="fa-regular fa-circle-check"></i> Envio prioritário via Sedex</li>
+                      <li><i class="fa-regular fa-circle-check"></i> Processamento rápido e seguro</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <!-- PANEL: CREDIT CARD -->
+                <div class="payment-panel" id="panel-card">
+                  <div class="pix-instructions">
+                    <div class="pix-badge-success" style="background: rgba(168, 85, 247, 0.1); border: 1px solid var(--color-purple); color: var(--color-purple);">
+                      <i class="fa-solid fa-credit-card" style="margin-right: 6px;"></i> LINK DE PAGAMENTO WHATSAPP (SEM JUROS)
+                    </div>
+                    <p>Ao selecionar a opção Cartão de Crédito, o link de pagamento seguro em ambiente criptografado e as opções de parcelamento (em até 6x sem juros) serão gerados e enviados diretamente no seu WhatsApp por nossa equipe logo após a finalização do seu pedido!</p>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </form>
+        </div>
+
+        <!-- Right Column: Cart Summary & Checkout Trigger -->
+        <div class="checkout-card summary-column">
+          <div class="checkout-summary-header">
+            <h3>Resumo do Pedido</h3>
+            <span class="checkout-items-count" id="checkout-summary-items-count">(0 itens)</span>
+          </div>
+
+          <!-- Checkout Items List Container -->
+          <div class="checkout-summary-items" id="checkout-summary-items-container">
+            <!-- Dynamic listing of items being bought -->
+            <div class="empty-checkout-summary" id="empty-checkout-summary">
+              <i class="fa-solid fa-cart-shopping"></i>
+              <p>Seu carrinho está vazio para checkout. Adicione sneakers na vitrine no topo para poder finalizar o
+                pedido.</p>
+              <a href="#catalogo" class="btn btn-outline" style="margin-top: 1rem; width: 100%;">Navegar Vitrine</a>
+            </div>
+          </div>
+
+          <!-- Price Summaries -->
+          <div class="checkout-pricing-panel" id="checkout-pricing-panel" style="display: none;">
+            <div class="checkout-price-row">
+              <span>Subtotal</span>
+              <span id="checkout-subtotal-val">R$ 0,00</span>
+            </div>
+
+            <div class="checkout-price-row flex-col">
+              <div class="flex-between w-100">
+                <span>Entrega (Correios / Sedex)</span>
+                <span id="checkout-shipping-val">A calcular</span>
+              </div>
+              <div class="shipping-info-badge" id="checkout-shipping-badge" style="display: none;"></div>
+            </div>
+
+            <!-- Discount Row (PIX/Promotion) -->
+            <div class="checkout-price-row discount-row" id="checkout-discount-row" style="display: none;">
+              <span id="checkout-discount-label">Desconto</span>
+              <span id="checkout-discount-val">- R$ 0,00</span>
+            </div>
+
+            <div class="checkout-divider"></div>
+
+            <div class="checkout-price-row total-row">
+              <span>Total Final</span>
+              <span id="checkout-total-val" class="checkout-total-price">R$ 0,00</span>
+            </div>
+
+            <p class="installments-disclaimer" id="checkout-installments-disclaimer">Ou parcelado em até 6x sem juros
+            </p>
+
+            <!-- Secure seals and terms checkbox -->
+            <div class="checkout-seals-panel">
+              <div class="seal-item">
+                <i class="fa-solid fa-shield-halved"></i>
+                <span>SSL Criptografado</span>
+              </div>
+              <div class="seal-item">
+                <i class="fa-solid fa-lock"></i>
+                <span>Compra Protegida</span>
+              </div>
+              <div class="seal-item">
+                <i class="fa-solid fa-rotate-left"></i>
+                <span>Garantia 7 dias</span>
+              </div>
+            </div>
+
+            <div class="checkout-terms-checkbox">
+              <input type="checkbox" id="checkout-terms-agree" required checked>
+              <label for="checkout-terms-agree">Declaro que aceito as <a href="#" class="policy-trigger">Políticas de
+                  Envio e Devolução</a> da HYPEFIT.</label>
+            </div>
+
+            <!-- MAIN SUBMIT BUTTON -->
+            <button type="submit" form="checkout-form" class="btn btn-primary checkout-submit-btn"
+              id="checkout-submit-btn">
+              <i class="fa-brands fa-whatsapp" style="margin-right: 8px; font-size: 1.15rem;"></i> Finalizar Pedido no
+              WhatsApp
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================
+    GATEWAY PROCESSING MODAL (SIMULATION SCREEN)
+  ========================================= -->
+  <div class="gateway-modal-overlay" id="gateway-loading-modal">
+    <div class="gateway-loading-card">
+      <div class="gateway-logo-row">
+        <span class="logo">
+          <img src="produtos/logo .PNG" alt="HYPEFIT Logo" class="logo-img-gateway">
+          HYPEFIT<span class="logo-dot">.</span>
+        </span>
+        <span class="gateway-secure-tag"><i class="fa-solid fa-shield-lock"></i> Conexão Segura</span>
+      </div>
+
+      <div class="gateway-processing-spinner">
+        <div class="spinner-ring"></div>
+        <i class="fa-brands fa-whatsapp processing-card-icon" id="processing-type-icon"></i>
+      </div>
+
+      <h3 id="gateway-title">ESTABELECENDO CONEXÃO...</h3>
+      <p id="gateway-description">Por favor, aguarde alguns instantes. Estamos registrando os metadados do seu pedido e
+        preparando o redirecionamento seguro para a finalização no WhatsApp.</p>
+
+      <!-- Progress visualizer bar -->
+      <div class="gateway-progress-container">
+        <div class="gateway-progress-bar" id="gateway-progress-bar-el" style="width: 0%;"></div>
+      </div>
+
+      <div class="gateway-seals-row">
+        <span><i class="fa-solid fa-lock"></i> Integração Criptografada SSL AES-256</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- =========================================
+    SUCCESS CHECKOUT MODAL (FINAL SCREEN)
+  ========================================= -->
+  <div class="success-modal-overlay" id="success-modal">
+    <div class="success-card">
+      <div class="success-icon-badge">
+        <i class="fa-solid fa-circle-check"></i>
+      </div>
+
+      <h2>PEDIDO ENVIADO AO WHATSAPP!</h2>
+      <p class="success-subtitle">Sua compra foi pré-registrada com sucesso. Fomos ao WhatsApp para que nossa equipe
+        finalize as opções de pagamento e despacho com você.</p>
+
+      <div class="success-divider"></div>
+
+      <!-- WhatsApp Action Button / Instructions -->
+      <div class="success-whatsapp-alert">
+        <p>Abra o WhatsApp abaixo para enviar a mensagem do seu pedido, caso ela não tenha aberto automaticamente:</p>
+        <a href="#" id="success-whatsapp-direct-link" target="_blank" class="btn btn-primary btn-success-whatsapp">
+          <i class="fa-brands fa-whatsapp" style="margin-right: 8px;"></i> Abrir WhatsApp Manualmente
+        </a>
+      </div>
+
+      <!-- Dynamic Content Depending on Payment Method chosen -->
+      <div id="success-payment-details-dynamic">
+        <!-- Will be populated dynamically via script.js -->
+      </div>
+
+      <div class="success-order-details-box">
+        <h3>Resumo do Pedido</h3>
+        <div class="order-details-meta">
+          <div class="meta-row">
+            <span>Código do Pedido:</span>
+            <strong id="success-order-code">HPF-893041-BR</strong>
+          </div>
+          <div class="meta-row">
+            <span>Cliente:</span>
+            <strong id="success-customer-name">Lucas Henrique Silva</strong>
+          </div>
+          <div class="meta-row">
+            <span>Valor Total:</span>
+            <strong id="success-total-value">R$ 0,00</strong>
+          </div>
+          <div class="meta-row">
+            <span>Prazo Estimado PAC:</span>
+            <strong id="success-shipping-time">4 a 7 dias úteis</strong>
+          </div>
+        </div>
+      </div>
+
+      <div class="success-actions">
+        <button class="btn btn-outline" id="success-close-btn" style="width: 100%;">Voltar para a Vitrine</button>
+        <a href="#" class="btn btn-outline" id="success-print-btn" onclick="window.print(); return false;"
+          style="display: none;"><i class="fa-solid fa-print"></i> Imprimir</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- =========================================
+    FOOTER SECTION
+  ========================================= -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <!-- Brand & Socials Column -->
+      <div class="footer-col footer-brand-col">
+        <a href="#" class="logo-link" aria-label="Voltar para a home"
+          style="margin-bottom: 8px; display: inline-block;">
+          <img src="produtos/logo .PNG" alt="HYPEFIT Logo" class="logo-img-footer">
+        </a>
+        <p class="footer-desc">
+          Combinamos os calçados importados mais cobiçados do mundo e a alta performance fitness com a estética das
+          ruas. Exclusividade, sofisticação e conforto absoluto.
+        </p>
+        <div class="footer-socials">
+          <a href="https://instagram.com/hypfit.br" target="_blank" class="social-link"
+            aria-label="Acessar Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.tiktok.com/@hypfit.br" target="_blank" class="social-link" aria-label="Acessar TikTok"><i
+              class="fa-brands fa-tiktok"></i></a>
+          <a href="https://wa.me/556294879501" target="_blank" class="social-link" aria-label="Acessar WhatsApp"><i
+              class="fa-brands fa-whatsapp"></i></a>
+        </div>
+      </div>
+
+      <!-- Quick Links Column -->
+      <div class="footer-col">
+        <h4>Linhas</h4>
+        <ul class="footer-links">
+          <li><a href="#catalogo" data-category="sneakers" class="footer-nav-link">Sneakers Limitados</a></li>
+          <li><a href="#catalogo" data-category="performance" class="footer-nav-link">Treino &amp; Corrida</a></li>
+          <li><a href="#catalogo" data-category="sneakers" class="footer-nav-link">Urbano &amp; Dia a Dia</a></li>
+          <li><a href="#catalogo" data-category="acessorios" class="footer-nav-link">Acessórios Premium</a></li>
+        </ul>
+      </div>
+
+      <!-- Help / Institution Column -->
+      <div class="footer-col">
+        <h4>Ajuda &amp; Suporte</h4>
+        <ul class="footer-links">
+          <li><a href="#" class="faq-trigger">Dúvidas Frequentes</a></li>
+          <li><a href="#" class="policy-trigger">Políticas de Troca</a></li>
+          <li><a href="#" class="shipping-trigger">Prazos de Despacho</a></li>
+          <li><a href="https://wa.me/556294879501" target="_blank">Fale com Atendente</a></li>
+        </ul>
+      </div>
+
+      <!-- WhatsApp Group Box Column -->
+      <div class="footer-col footer-newsletter-col">
+        <h4>Acessar Drops Exclusivos</h4>
+        <p>Entre no nosso grupo VIP do WhatsApp e garanta <strong style="color: var(--color-cyan);">10% de desconto</strong> na sua compra, além de acessar novos drops em primeira mão!</p>
+        <a href="https://chat.whatsapp.com/D3DPMH1C0942Atq34VBJ8o?mode=gi_t" target="_blank" class="btn btn-primary" style="display: flex; justify-content: center; align-items: center; gap: 8px; margin-top: 15px; font-weight: bold; width: fit-content; min-width: 200px;">
+          <i class="fa-brands fa-whatsapp" style="font-size: 1.2rem;"></i> Entrar no Grupo VIP
+        </a>
+      </div>
+    </div>
+
+    <!-- Payment Icons & Copyright Block -->
+    <div class="footer-bottom">
+      <div class="container footer-bottom-flex">
+        <p class="copyright-text">
+          &copy; 2026 HYPEFIT. Todos os direitos reservados. CNPJ: 52.313.827/0001-59. Desenvolvido para <strong
+            style="color: var(--color-white)">Orquestração CEVON</strong>.
+        </p>
+
+        <!-- Curated Secure & Payment Icons -->
+        <div class="payment-icons-wrapper">
+          <i class="fa-brands fa-pix" title="Pix"></i>
+          <i class="fa-brands fa-cc-visa" title="Visa"></i>
+          <i class="fa-brands fa-cc-mastercard" title="MasterCard"></i>
+          <i class="fa-brands fa-cc-amex" title="American Express"></i>
+          <span class="divider">|</span>
+          <i class="fa-solid fa-shield-halved" title="Compra 100% Protegida"></i>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- =========================================
+    FAQ MODAL (POPUP DIALOG OVERLAY)
+  ========================================= -->
+  <div class="faq-modal-overlay" id="faq-modal" aria-hidden="true" role="dialog">
+    <div class="faq-modal-container">
+      <div class="faq-modal-header">
+        <h3>Central de Ajuda</h3>
+        <button class="faq-modal-close" id="faq-modal-close-btn" aria-label="Fechar dúvidas">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+      <div class="faq-modal-body">
+        <h2>Dúvidas Frequentes — HypeFit</h2>
+        <p>Preparamos esta seção com as principais dúvidas dos nossos clientes sobre prazos, produtos, pagamentos e
+          trocas. Clique em uma pergunta para visualizar a resposta.</p>
+
+        <div class="faq-accordion-group">
+          <!-- Item 1 -->
+          <div class="faq-item active">
+            <div class="faq-question-header" onclick="toggleFaqAccordion(this)">
+              <h4>Qual é o prazo de entrega?</h4>
+              <i class="fa-solid fa-chevron-down faq-icon"></i>
+            </div>
+            <div class="faq-answer-body" style="height: auto;">
+              <p>O prazo de entrega varia conforme sua região e é informado no momento da compra. Assim que o seu pedido
+                for postado nos Correios, você receberá automaticamente o código de rastreamento por e-mail e WhatsApp.
+              </p>
+            </div>
+          </div>
+
+          <!-- Item 2 -->
+          <div class="faq-item">
+            <div class="faq-question-header" onclick="toggleFaqAccordion(this)">
+              <h4>Qual é a procedência dos calçados?</h4>
+              <i class="fa-solid fa-chevron-down faq-icon"></i>
+            </div>
+            <div class="faq-answer-body">
+              <p>Trabalhamos exclusivamente com calçados de importação premium e edições limitadas. Todos os modelos são
+                selecionados cuidadosamente sob as diretrizes mais rigorosas para garantir acabamento impecável,
+                costuras de alta qualidade e amortecimento superior.</p>
+            </div>
+          </div>
+
+          <!-- Item 3 -->
+          <div class="faq-item">
+            <div class="faq-question-header" onclick="toggleFaqAccordion(this)">
+              <h4>Como acompanhar meu pedido?</h4>
+              <i class="fa-solid fa-chevron-down faq-icon"></i>
+            </div>
+            <div class="faq-answer-body">
+              <p>Após a confirmação do envio, nossa equipe envia um código de rastreamento oficial. Você poderá
+                consultar o trajeto em tempo real direto nos canais de rastreio dos Correios.</p>
+            </div>
+          </div>
+
+          <!-- Item 4 -->
+          <div class="faq-item">
+            <div class="faq-question-header" onclick="toggleFaqAccordion(this)">
+              <h4>Quais formas de pagamento são aceitas?</h4>
+              <i class="fa-solid fa-chevron-down faq-icon"></i>
+            </div>
+            <div class="faq-answer-body">
+              <p>Aceitamos Pix Expresso (que garante 5% de desconto e liberação prioritária do estoque) e Cartão de
+                Crédito com parcelamento em até 6x sem juros (ou em até 12x simulado no checkout).</p>
+            </div>
+          </div>
+
+          <!-- Item 5 -->
+          <div class="faq-item">
+            <div class="faq-question-header" onclick="toggleFaqAccordion(this)">
+              <h4>Posso trocar meu produto?</h4>
+              <i class="fa-solid fa-chevron-down faq-icon"></i>
+            </div>
+            <div class="faq-answer-body">
+              <p>Sim. Conforme as regras da HypeFit e o Código de Defesa do Consumidor, você pode solicitar a troca ou
+                devolução do produto em até 7 dias corridos após o recebimento, desde que o produto esteja sem marcas de
+                uso e na embalagem original.</p>
+            </div>
+          </div>
+
+          <!-- Item 6 -->
+          <div class="faq-item">
+            <div class="faq-question-header" onclick="toggleFaqAccordion(this)">
+              <h4>O site é seguro?</h4>
+              <i class="fa-solid fa-chevron-down faq-icon"></i>
+            </div>
+            <div class="faq-answer-body">
+              <p>Sim. Toda a nossa operação é blindada por tecnologia de segurança SSL AES-256 bits, garantindo que os
+                seus dados pessoais, endereço e informações de entrega estejam 100% criptografados e inacessíveis para
+                terceiros.</p>
+            </div>
+          </div>
+
+          <!-- Item 7 -->
+          <div class="faq-item">
+            <div class="faq-question-header" onclick="toggleFaqAccordion(this)">
+              <h4>Como escolher o tamanho ideal?</h4>
+              <i class="fa-solid fa-chevron-down faq-icon"></i>
+            </div>
+            <div class="faq-answer-body">
+              <p>Recomendamos comprar o número exato que você já costuma utilizar no Brasil. Cada detalhe técnico e
+                forma segue o padrão de forma BR padrão. Caso tenha dúvidas, disponibilizamos tabelas de medidas
+                detalhadas na página de cada produto.</p>
+            </div>
+          </div>
+
+          <!-- Item 8 -->
+          <div class="faq-item">
+            <div class="faq-question-header" onclick="toggleFaqAccordion(this)">
+              <h4>Vocês enviam para todo o Brasil?</h4>
+              <i class="fa-solid fa-chevron-down faq-icon"></i>
+            </div>
+            <div class="faq-answer-body">
+              <p>Sim. Entregamos em qualquer cidade do território nacional com seguro postal total via Sedex ou PAC (com
+                frete 100% gratuito em compras a partir de 2 pares).</p>
+            </div>
+          </div>
+
+          <!-- Item 9 -->
+          <div class="faq-item">
+            <div class="faq-question-header" onclick="toggleFaqAccordion(this)">
+              <h4>O produto possui garantia?</h4>
+              <i class="fa-solid fa-chevron-down faq-icon"></i>
+            </div>
+            <div class="faq-answer-body">
+              <p>Sim. Todos os nossos calçados possuem garantia total contra defeitos de fabricação em até 7 dias após o
+                recebimento. Basta contatar nosso suporte técnico de pós-venda para darmos início ao suporte.</p>
+            </div>
+          </div>
+
+          <!-- Item 10 -->
+          <div class="faq-item">
+            <div class="faq-question-header" onclick="toggleFaqAccordion(this)">
+              <h4>Como entrar em contato com a HypeFit?</h4>
+              <i class="fa-solid fa-chevron-down faq-icon"></i>
+            </div>
+            <div class="faq-answer-body">
+              <p>Você pode falar com nossa equipe diretamente através dos nossos canais oficiais de atendimento rápido:
+              </p>
+
+              <div style="margin-top: 12px; display: flex; flex-direction: column; gap: 8px;">
+                <a href="https://wa.me/556294879501" target="_blank"
+                  style="display: flex; align-items: center; gap: 8px; font-weight: 600; color: var(--color-cyan); font-size: 0.85rem; text-decoration: none;">
+                  <i class="fa-brands fa-whatsapp"></i> WhatsApp: +55 62 9487-9501
+                </a>
+                <a href="mailto:lucasraph92@gmail.com"
+                  style="display: flex; align-items: center; gap: 8px; font-weight: 600; color: var(--color-white); font-size: 0.85rem; text-decoration: none;">
+                  <i class="fa-solid fa-envelope" style="color: var(--color-cyan);"></i> E-mail: lucasraph92@gmail.com
+                </a>
+                <a href="https://instagram.com/hypfit.br" target="_blank"
+                  style="display: flex; align-items: center; gap: 8px; font-weight: 600; color: var(--color-cyan); font-size: 0.85rem; text-decoration: none;">
+                  <i class="fa-brands fa-instagram"></i> Instagram: @hypfit.br
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- =========================================
+    POLICY MODAL (POPUP DIALOG OVERLAY)
+  ========================================= -->
+  <div class="policy-modal-overlay" id="policy-modal" aria-hidden="true" role="dialog">
+    <div class="policy-modal-container">
+      <div class="policy-modal-header">
+        <h3>Políticas da Loja</h3>
+        <button class="policy-modal-close" id="policy-modal-close-btn" aria-label="Fechar políticas">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+      <div class="policy-modal-body">
+        <h2>Política de Troca e Devolução — HypeFit</h2>
+        <p>Na HypeFit, buscamos oferecer a melhor experiência possível para nossos clientes. Caso precise realizar uma
+          troca ou devolução, seguimos as diretrizes abaixo de forma clara e objetiva.</p>
+
+        <h3>1. Prazo para troca ou devolução</h3>
+        <p>Você pode solicitar a troca ou devolução do seu produto em até <strong>7 dias corridos</strong> após o
+          recebimento, conforme previsto no Código de Defesa do Consumidor.</p>
+
+        <h3>2. Condições do produto</h3>
+        <p>Para que a troca ou devolução seja aprovada, o produto deve:</p>
+        <ul>
+          <li>Estar sem sinais de uso</li>
+          <li>Conter embalagem original</li>
+          <li>Possuir etiquetas e acessórios originais</li>
+        </ul>
+        <p class="warning-text"><i class="fa-solid fa-triangle-exclamation"></i> Produtos com sinais de uso inadequado
+          ou desgastes não poderão ser trocados ou devolvidos.</p>
+
+        <h3>3. Produto com defeito</h3>
+        <p>Caso o produto apresente algum defeito de fabricação, entre em contato com nossa equipe em até <strong>7
+            dias</strong> após o recebimento.</p>
+        <p>Após análise, realizaremos:</p>
+        <ul>
+          <li>Troca do produto defeituoso</li>
+          <li>Reembolso total do valor pago</li>
+          <li>Ou disponibilização de crédito equivalente na loja</li>
+        </ul>
+
+        <h3>4. Troca por tamanho ou preferência</h3>
+        <p>Caso deseje trocar por tamanho, cor ou outro modelo:</p>
+        <ul>
+          <li>O custo do frete de envio é de responsabilidade do cliente</li>
+          <li>O produto deve atender todas as condições descritas no item 2</li>
+        </ul>
+
+        <h3>5. Reembolso</h3>
+        <p>O reembolso será realizado após o recebimento e análise das condições do produto devolvido. O prazo para
+          processamento e estorno pode variar conforme a forma de pagamento utilizada (Pix, cartão ou boleto).</p>
+
+        <h3>6. Como solicitar</h3>
+        <p>Para solicitar sua troca, devolução ou obter suporte direto, entre em contato através dos nossos canais
+          oficiais de atendimento:</p>
+
+        <div style="margin-top: 15px; display: flex; flex-direction: column; gap: 10px;">
+          <a href="https://wa.me/556294879501" target="_blank" class="contact-link"
+            style="display: flex; align-items: center; gap: 8px; font-weight: 600;">
+            <i class="fa-brands fa-whatsapp" style="font-size: 1.1rem;"></i> WhatsApp: +55 62 9487-9501
+          </a>
+          <a href="https://instagram.com/hypfit.br" target="_blank" class="contact-link"
+            style="display: flex; align-items: center; gap: 8px; font-weight: 600;">
+            <i class="fa-brands fa-instagram" style="font-size: 1.1rem;"></i> Instagram: @hypfit.br
+          </a>
+        </div>
+
+        <p class="policy-footer">A equipe HypeFit terá o maior prazer em ajudar você a encontrar o ajuste perfeito.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- =========================================
+    SHIPPING MODAL (POPUP DIALOG OVERLAY)
+  ========================================= -->
+  <div class="policy-modal-overlay" id="shipping-modal" aria-hidden="true" role="dialog">
+    <div class="policy-modal-container">
+      <div class="policy-modal-header">
+        <h3>Prazos de Despacho & Envio</h3>
+        <button class="policy-modal-close" id="shipping-modal-close-btn" aria-label="Fechar prazos de despacho">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+      <div class="policy-modal-body">
+        <h2>Política de Envio e Prazos de Despacho — HypeFit</h2>
+        <p>Na HypeFit, garantimos que sua encomenda seja despachada com a máxima prioridade e com seguro total.</p>
+
+        <h3>1. Prazos de Despacho</h3>
+        <p>Após a confirmação do pagamento do seu pedido, sua encomenda entra em nossa fila de separação imediata. O
+          prazo para despacho (postagem nos Correios) é de até <strong>24 horas úteis</strong>.</p>
+
+        <h3>2. Tipos de Envio e Prazos de Entrega</h3>
+        <p>Trabalhamos em parceria com os Correios para realizar as entregas em todo o território nacional. No momento
+          do fechamento, você pode optar pelas seguintes modalidades:</p>
+        <ul>
+          <li><strong>SEDEX:</strong> Envio expresso prioritário. Prazo de entrega estimado de 2 a 7 dias úteis após a
+            postagem.</li>
+          <li><strong>PAC:</strong> Envio econômico convencional. Prazo de entrega estimado de 5 a 15 dias úteis após a
+            postagem.</li>
+        </ul>
+
+        <h3>3. Seguro de Postagem Completo</h3>
+        <p>Todas as nossas postagens contam com seguro de carga completo contra extravio, roubo ou perdas em trânsito.
+          Caso ocorra qualquer eventualidade com o transporte, nossa loja se responsabiliza pelo envio de um novo par ou
+          reembolso integral.</p>
+
+        <h3>4. Código de Rastreamento</h3>
+        <p>Assim que seu pacote for postado nos Correios, o código de rastreamento será gerado e enviado diretamente em
+          sua conversa de WhatsApp para que você possa acompanhar seu sneaker em tempo real.</p>
+
+        <h3>5. Como falar conosco</h3>
+        <p>Para dúvidas sobre o andamento do seu pedido ou cotações personalizadas de frete, entre em contato:</p>
+
+        <div style="margin-top: 15px; display: flex; flex-direction: column; gap: 10px;">
+          <a href="https://wa.me/556294879501" target="_blank" class="contact-link"
+            style="display: flex; align-items: center; gap: 8px; font-weight: 600;">
+            <i class="fa-brands fa-whatsapp" style="font-size: 1.1rem;"></i> WhatsApp: +55 62 9487-9501
+          </a>
+        </div>
+
+        <p class="policy-footer">A equipe HypeFit terá o maior prazer em ajudar você.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Dynamic JS Engine -->
+  <script src="script.js"></script>
+</body>
+
+</html>
